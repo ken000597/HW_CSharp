@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C434A7E2-49CC-4447-B03F-220449F5E976}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HW_CSharp</RootNamespace>
+    <AssemblyName>HW_CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HW_14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_14.Designer.cs">
+      <DependentUpon>HW_14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_12.Designer.cs">
+      <DependentUpon>HW_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_11.Designer.cs">
+      <DependentUpon>HW_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_09.Designer.cs">
+      <DependentUpon>HW_09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_08.Designer.cs">
+      <DependentUpon>HW_08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_07.Designer.cs">
+      <DependentUpon>HW_07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_06.Designer.cs">
+      <DependentUpon>HW_06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_05.Designer.cs">
+      <DependentUpon>HW_05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_04.Designer.cs">
+      <DependentUpon>HW_04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_10.Designer.cs">
+      <DependentUpon>HW_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_11_01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_11_01.Designer.cs">
+      <DependentUpon>HW_11_01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_11_03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_11_03.Designer.cs">
+      <DependentUpon>HW_11_03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_13_Paint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_13_Paint.Designer.cs">
+      <DependentUpon>HW_13_Paint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_HomePage.Designer.cs">
+      <DependentUpon>HW_HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_11_02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_11_02.Designer.cs">
+      <DependentUpon>HW_11_02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_03.Designer.cs">
+      <DependentUpon>HW_03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_02_02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_02_02.Designer.cs">
+      <DependentUpon>HW_02_02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_02_01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_02_01.Designer.cs">
+      <DependentUpon>HW_02_01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW_01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW_01.Designer.cs">
+      <DependentUpon>HW_01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HW_12.resx">
+      <DependentUpon>HW_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_11.resx">
+      <DependentUpon>HW_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_07.resx">
+      <DependentUpon>HW_07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_02_01.resx">
+      <DependentUpon>HW_02_01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_01.resx">
+      <DependentUpon>HW_01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_02_02.resx">
+      <DependentUpon>HW_02_02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_03.resx">
+      <DependentUpon>HW_03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_04.resx">
+      <DependentUpon>HW_04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_05.resx">
+      <DependentUpon>HW_05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_06.resx">
+      <DependentUpon>HW_06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_08.resx">
+      <DependentUpon>HW_08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_09.resx">
+      <DependentUpon>HW_09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_10.resx">
+      <DependentUpon>HW_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_11_01.resx">
+      <DependentUpon>HW_11_01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_11_02.resx">
+      <DependentUpon>HW_11_02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_11_03.resx">
+      <DependentUpon>HW_11_03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_13_Paint.resx">
+      <DependentUpon>HW_13_Paint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_14.resx">
+      <DependentUpon>HW_14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW_HomePage.resx">
+      <DependentUpon>HW_HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SS01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB05.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB04.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB03.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB02.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB01.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HL02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW03.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW06.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW07.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW08.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HW14.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
